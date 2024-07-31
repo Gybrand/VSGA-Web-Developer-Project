@@ -36,5 +36,5 @@ This project is not licensed.
 ## Contact
 For any inquiries or feedback, please contact us at:
 
-Email: fikliag10@gmail.com
-GitHub: 
+- Email: fikliag10@gmail.com
+- GitHub: Gybrand
