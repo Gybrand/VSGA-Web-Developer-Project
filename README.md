@@ -1,4 +1,4 @@
-# Inventory Hub
+# **Inventory Hub**
 Inventory Hub is a web-based application designed to efficiently manage your inventory data. The application supports creating, reading, updating, and deleting (CRUD) operations for your inventory database, making it easy to keep track of your stock and sales data.
 
 ## Features
