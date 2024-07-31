@@ -1,3 +1,5 @@
+# Inventory Hub
+
 Halaman Dashboard
 ![Dashboard](https://github.com/user-attachments/assets/449a43b4-801c-4400-a83b-14f93575606c)
 ![Side Menu](https://github.com/user-attachments/assets/330e10bc-b675-40f9-bbdc-e57ad911e0c2)
