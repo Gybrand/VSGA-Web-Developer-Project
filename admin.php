@@ -1,4 +1,5 @@
 <?php
+session_start();
 include 'db.php';
 
 // Handle add item
@@ -98,6 +99,7 @@ if (isset($_GET['delete_sale'])) {
     <title>ADMIN - Toko Toserba</title>
 </head>
 <body>
+<?php include('header.php'); ?>
 <div class="container mt-4">
     <h1>Kelola Data Barang dan Penjualan</h1>
     

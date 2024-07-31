@@ -1,4 +1,5 @@
 <?php
+session_start();
 include 'db.php';
 ?>
 
@@ -14,6 +15,7 @@ include 'db.php';
     <title>PENJUALAN - Toko Toserba</title>
 </head>
 <body>
+<?php include('header.php'); ?>
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-12">
