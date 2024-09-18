@@ -73,8 +73,7 @@ INSERT INTO `table_detail_penjualan` (`no_penjualan`, `nama_barang`, `harga_bara
 ('PJ1584359090', 'Gula Pasir', 8000, 5, 'kg', 40000),
 ('PJ1584359090', 'Kopi Kapal Api', 1750, 5, 'sachet', 8750),
 ('PJ1584359556', 'Kopi Kapal Api', 1750, 1, 'sachet', 1750),
-('PJ1584359556', 'Gula Pasir', 8000, 1, 'kg', 8000),
-('123', 'Telur', 12500, 4, 'kg', 50000);
+('PJ1584359556', 'Gula Pasir', 8000, 1, 'kg', 8000);
 
 -- --------------------------------------------------------
 
