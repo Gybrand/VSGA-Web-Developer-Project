@@ -34,7 +34,7 @@ require 'db.php';
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="image/Logoo.png" alt="Logo" style="width:40px;" class="rounded-pill">
+                <img src="image/pelindo.png" alt="Logo" style="width:40px;" class="rounded-pill">
             </a>
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
@@ -51,25 +51,29 @@ require 'db.php';
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="demo" aria-labelledby="demo" data-bs-backdrop="false">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">You are logged in as <?php echo htmlspecialchars($username); ?></h5>
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">You are logged in as
+                <?php echo htmlspecialchars($username); ?></h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
             <ul class="navbar-nav me-auto">
-                <button onclick="location.href='index.php'" class="btn btn-primary active float-start me-2 btn-lg btn-block">
+                <button onclick="location.href='index.php'"
+                    class="btn btn-primary active float-start me-2 btn-lg btn-block">
                     </i> Dashboard
                 </button>
             </ul>
             <br>
             <ul class="navbar-nav me-auto">
-                <button onclick="location.href='admin.php'" class="btn btn-warning active float-start me-2 btn-lg btn-block">
+                <button onclick="location.href='admin.php'"
+                    class="btn btn-warning active float-start me-2 btn-lg btn-block">
                     <!-- <i class="fas fa-clipboard-list"> --></i> Admin
                 </button>
             </ul>
             <br>
-            
+
             <ul class="navbar-nav me-auto">
-                <button onclick="location.href='laporan.php'" class="btn btn-primary active float-start me-2 btn-lg btn-block">
+                <button onclick="location.href='laporan.php'"
+                    class="btn btn-primary active float-start me-2 btn-lg btn-block">
                     <!-- <i class="fas fa-clipboard-list"> --></i> Laporan
                 </button>
             </ul>
@@ -78,7 +82,8 @@ require 'db.php';
                 <p>Do you want to log out?</p>
             </div>
             <div class="d-flex justify-content-center">
-                <button onclick="location.href='auth/logout.php'" class="btn btn-danger active float-center me-2 btn-lg btn-block">
+                <button onclick="location.href='auth/logout.php'"
+                    class="btn btn-danger active float-center me-2 btn-lg btn-block">
                     <i class="fas fa-sign-out-alt"></i> Log Out
                 </button>
             </div>

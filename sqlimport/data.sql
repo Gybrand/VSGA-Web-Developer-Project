@@ -97,8 +97,7 @@ CREATE TABLE `table_penjualan` (
 INSERT INTO `table_penjualan` (`id`, `no_penjualan`, `nama_kasir`, `tgl_penjualan`, `jam_penjualan`, `total`) VALUES
 (1, 'PJ1584356033', 'Nugroho', '2020-03-16', '17:53:53', 12500),
 (2, 'PJ1584359090', 'Nugroho', '2020-03-16', '18:44:50', 161250),
-(3, 'PJ1584359556', 'Nugroho', '2020-03-16', '18:52:36', 9750),
-(4, '123', 'Aldo', '2024-07-18', '14:09:00', 50000);
+(3, 'PJ1584359556', 'Nugroho', '2020-03-16', '18:52:36', 9750);
 
 --
 -- Indexes for dumped tables

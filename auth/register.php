@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($password === $repeat_password) {
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
-        $stmt = $con->prepare('INSERT INTO users (username, password) VALUES (?, ?)');
+        $stmt = $conn->prepare('INSERT INTO users (username, password) VALUES (?, ?)');
         $stmt->bind_param('ss', $username, $hashed_password);
 
         if ($stmt->execute()) {
